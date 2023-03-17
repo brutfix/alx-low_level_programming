@@ -21,10 +21,11 @@ while
 		c++;
 	}
 while
-	(d <= 'z')
+	(d <= 'Z')
 	{
-		putchar(c);
+		putchar(d);
 		d++;
 	}
+putchar('\n');
 return (0);
 }
