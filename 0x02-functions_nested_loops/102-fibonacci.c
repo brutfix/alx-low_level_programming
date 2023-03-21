@@ -21,6 +21,6 @@ printf(", %ld", k);
 }
 ++i;
 }
-print("\n");
+printf("\n");
 return (0);
 }
