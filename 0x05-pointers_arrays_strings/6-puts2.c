@@ -1,7 +1,7 @@
 #include "main.h"
-
 /**
- * puts2 - to print only one character out of two
+ * puts2 - function should print only one character out of two
+ * starting with the first one
  * @str: input
  * Return: print
  */
@@ -18,12 +18,12 @@ void puts2(char *str)
 		longi++;
 	}
 	t = longi - 1;
-	for (o = 0; o <= t; o++)
+	for (o = 0 ; o <= t ; o++)
 	{
 		if (o % 2 == 0)
-		{
-			_putchar(str[0]);
-		}
+	{
+		_putchar(str[o]);
+	}
 	}
 	_putchar('\n');
 }
